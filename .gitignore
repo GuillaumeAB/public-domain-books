@@ -1,0 +1,31 @@
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Temporary data & caches
+cache/
+*.log
+
+# Personal generated books & exports (keep epubs/.gitkeep)
+epubs/*
+!epubs/.gitkeep
+
+# Sensitive tokens & keys
+*.token
+*.key
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
